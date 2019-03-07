@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/num_image_minus"
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        android:src="@mipmap/jian"
+        android:layout_marginTop="@dimen/dp_3"
+        />
+    <EditText
+        android:id="@+id/num_edit_price"
+        android:layout_width="@dimen/dp_31"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:background="@drawable/shop_price_background"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="@dimen/sp_12"
+        android:textColor="#666666"
+        android:layout_marginTop="@dimen/dp_5"
+        />
+    <ImageView
+        android:id="@+id/num_image_add"
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        android:src="@mipmap/add"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_3"
+        />
+</LinearLayout>

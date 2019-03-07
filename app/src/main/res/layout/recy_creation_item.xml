@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/dp_8"
+    android:background="@drawable/recy_select_item_radius"
+    >
+    <ImageView
+    android:id="@+id/item_creation_recy_image"
+    android:layout_width="@dimen/dp_81"
+    android:layout_height="@dimen/dp_81"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+
+    />
+    <TextView
+        android:id="@+id/item_creation_recy_text_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/item_creation_recy_image"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item_creation_recy_image"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:textSize="@dimen/sp_12"
+        android:textColor="#666666"
+        />
+    <TextView
+        android:id="@+id/item_creation_recy_text_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/item_creation_recy_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:textColor="#ff0606"
+        />
+    <com.bw.zweidu.customview.CustomRelalayout
+        android:id="@+id/item_creation_recy_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        ></com.bw.zweidu.customview.CustomRelalayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_10"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/text_camera"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/text_size"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="#9e9e9e"/>
+
+    <Button
+        android:id="@+id/choosePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/text_photo"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/text_size"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/text_cancel"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/text_size"/>
+</LinearLayout>

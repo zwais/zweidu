@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_120"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:id="@+id/pop_image_photo"
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_50"
+        android:text="选择拍照"
+        android:gravity="center"
+        android:textColor="#999999"
+        android:textSize="@dimen/sp_15"
+        />
+    <TextView
+        android:id="@+id/pop_image_camera"
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_50"
+        android:text="从相册中选择"
+        android:gravity="center"
+        android:textColor="#999999"
+        android:textSize="@dimen/sp_15"
+        />
+</LinearLayout>

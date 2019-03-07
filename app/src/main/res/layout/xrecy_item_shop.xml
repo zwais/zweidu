@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_151"
+    android:layout_height="@dimen/dp_174"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:background="@drawable/show_shape_radius"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/item_classify_image"
+        android:layout_width="@dimen/dp_131"
+        android:layout_height="@dimen/dp_102"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+    <TextView
+        android:id="@+id/item_classify_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/item_classify_image"
+        app:layout_constraintRight_toRightOf="@id/item_classify_image"
+        app:layout_constraintTop_toBottomOf="@id/item_classify_image"
+        android:layout_marginTop="@dimen/dp_12"
+        android:textSize="@dimen/sp_12"
+        android:textColor="#666666"
+        android:lines="1"
+        android:ellipsize="end"
+        />
+    <TextView
+        android:id="@+id/item_classify_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/item_classify_image"
+        app:layout_constraintTop_toBottomOf="@id/item_classify_name"
+        android:textSize="@dimen/sp_14"
+        android:textColor="#ff0000"
+        />
+    <TextView
+        android:id="@+id/item_classify_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_10"
+        android:textColor="#666666"
+        app:layout_constraintRight_toRightOf="@id/item_classify_image"
+        app:layout_constraintBottom_toBottomOf="@id/item_classify_price"
+
+        />
+</android.support.constraint.ConstraintLayout>
